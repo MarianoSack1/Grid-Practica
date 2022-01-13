@@ -23,7 +23,19 @@ div{
     grid-template-columns: repeat(2,1fr);
     background-color: black;
     color: white;
-    font-size: 40px;
+    
+
+}
+
+.dark1 ul{
+    display: grid;
+    grid-template-rows: repeat(6);
+    justify-items:left;
+    align-items: center;
+}
+
+li{
+    list-style:none;
 }
 .white{
     background-color: white;
@@ -42,6 +54,10 @@ div{
     text-align: center;
     top: 170px;
 }
+
+.dark1 > ul{ margin:80px 0px 80px; 
+                        }
+
 .white>h1>span{
     color: rgb(113, 165, 211);
 }
@@ -49,9 +65,7 @@ div{
     width: 700px;
     height: 600px;
 }
-.dark1 > ul{
-    margin-top:120px;
-}
+
 .dark2{
     height: 300px;
     display: grid;
